@@ -6,5 +6,8 @@ p {
 
 h1 {
     color:black;
+}
+
+.title {
     font-size: large;
 }
