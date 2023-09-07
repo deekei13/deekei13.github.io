@@ -5,9 +5,40 @@
     <link href="./style.css" rel="stylesheet">
 </head>
 <body>
-    <a href="https://deekei13.github.io/"><p>Go back to main</p></a>
-    <h1 class="title">Hello, my name is Vanya.</h1>
-    <p>This is some generic text about myself.</p>
-    <img src="./avatar.PNG" alt= "This is an image of me pixel styled"/>
+
+    <section class="navigation">
+        <a href="https://deekei13.github.io/"><p>Main</p></a>
+    </section>
+
+    <section class="cv">
+        <h1 class="title">Hello, my name is Vanya.</h1>
+        <p>This is some generic text about myself.</p>
+        <img src="./avatar.PNG" alt= "This is an image of me pixel styled"/>
+    </section>
+
+    <section class="cta">
+        <h2>
+            Send me a POSTcard, darling
+        </h2>
+        <p>I'm open for job opportunities, but I'm a project manager, not a frontend developer...</p>
+        <form action="nil" method="post">
+            <section class="name">
+                <input type="text" name="name" id="name">
+                <label for="name">What's your name?</label>
+            </section>
+            <section class="contact">
+                <input type="text" name="e-mail" id="e-mail">
+                <label for="e-mail">Your e-mail address?</label>
+            </section>
+            <section class="jobtype">
+                <span>What job type you're offering?</span>
+                <input type="radio" name="jobtype" id="pm">
+                <label for="pm">Project Manager</label>
+                <input type="ratio" name="jobtype" id="frontend">
+                <label for="frontend">Frontend Developer</label>
+            </section>
+        </form>
+    </section>
+    
 </body>
 </html>
