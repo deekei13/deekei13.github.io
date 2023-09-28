@@ -1,3 +1,16 @@
-#intro {
-    align-content: center;
+@font-face {
+    font-family: 'Inter', 'Anonymous Pro', sans-serif, monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter&display=swap');
+}
+
+body {
+    font-family: "Inter", "Anonymous Pro";
+}
+
+h1, h2, h3 {
+    font-family: "Anonymous Pro";
+}
+
+p {
+    font-family: "Inter";
 }
