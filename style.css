@@ -5,9 +5,9 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Anonymous Pro";
+    font-family: "Anonymous Pro", monospace;
 }
 
 p {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
 }
