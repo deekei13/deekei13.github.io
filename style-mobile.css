@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter&display=swap');
+
+header, nav, div.main, footer {
+    max-width: 1080px;
+    margin: 2px;
+    padding: 15px 30px;
+}

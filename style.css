@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Inter:wght@400;700&display=swap');
 /* Main Base Stuff for all pages */
 
 body {
     font-family: "Anonymous Pro", sans-serif;
     background-color: #EFE6DD;
     color: #231F20;
+    letter-spacing: -1%;
 }
 
 p {
     font-family: "Inter", sans-serif;
 }
 
-h1 {
-    letter-spacing: 2px;
+header h1 {
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
 /* Block rules */
@@ -47,10 +48,13 @@ div.main {
 footer {
     background-color: #F3DFA2;
     font-size: xx-small;
-    text-align: center;
     border-top: #231F20 solid 1px;
     border-radius: 0px 0px 10px 10px;
     margin-bottom: 10px;
+}
+
+#copyright {
+    text-align: center;
 }
 
 /* Navigtaion bar */
@@ -66,6 +70,7 @@ nav ul li {
 
 nav a:link {
     color: #231F20;
+    font-style: normal;
 }
 
 nav a:hover {
@@ -83,7 +88,9 @@ nav ul li.selected {
 
 /* Image rules */
 
-img#welcome_img {
+img.welcome_img {
     height: 250px;
-    border-radius: 100%;
+    border-radius: 50%;
+    border: #F3DFA2 outset 2px;
+    box-shadow: 15px 25px 10px #231F20 ;
 }
