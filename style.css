@@ -64,12 +64,17 @@ nav ul li {
     display: inline;
 }
 
-nav a:visited {
-    text-decoration: none;
+nav a:link {
+    color: #231F20;
 }
 
 nav a:hover {
     color: #EFE6DD;
+}
+
+nav a:visited {
+    color: #231F20;
+    text-decoration: none;
 }
 
 nav ul li.selected {
