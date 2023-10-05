@@ -3,52 +3,77 @@
 /* Main Base Stuff for all pages */
 
 body {
-    font-family: "Inter", "Anonymous Pro", sans-serif;
-    background-color: skyblue;
+    font-family: "Anonymous Pro", sans-serif;
+    background-color: #EFE6DD;
+    color: #231F20;
 }
 
-h1, h2, h3 {
-    font-family: "Anonymous Pro", monospace;
-}
-
-/* p {
+p {
     font-family: "Inter", sans-serif;
-} */
+}
+
+h1 {
+    letter-spacing: 2px;
+}
 
 /* Block rules */
 
+header, nav, div.main, footer {
+    max-width: 1080px;
+    margin: auto;
+    padding: 15px 30px;
+}
+
 header {
-    text-align: center;
+    background-color: #7EBDC2;
     font-size: larger;
-
-    background-color: aqua;
-
-    padding: 25px 0px 10px 0px;
-    margin: 30px 30px 0px 30px;
-
+    text-align: center;
     border-radius: 10px 10px 0px 0px;
+    margin-top: 30px;
 }
 
 nav {
+    background-color: #BB4430;
     font-size: large;
-    font-family: "Anonymous Pro", monospace;
-    background-color: bisque;
     text-align: center;
-    padding: 15px 0px;
-    margin: 0px 30px;
 }
 
+div.main {
+    background-color: #F3DFA2;
+    font-size: medium;
+    text-align: left;
+}
+
+footer {
+    background-color: #F3DFA2;
+    font-size: xx-small;
+    text-align: center;
+    border-top: #231F20 solid 1px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+}
+
+/* Navigtaion bar */
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    padding: 20px;
 }
 
-div {
-    background-color: red;
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #EFE6DD;
+}
+
+nav ul li.selected {
+    font-weight: bold;
 }
 
 /* Image rules */
@@ -56,16 +81,4 @@ div {
 img#welcome_img {
     height: 250px;
     border-radius: 100%;
-}
-
-/* Linkies */
-
-a:visited {
-    color: blueviolet;
-    text-decoration: none;
-}
-
-ul li.selected {
-    background-color: lightslategray;
-    font-weight: bold;
 }
