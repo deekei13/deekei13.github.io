@@ -12,7 +12,7 @@ p {
 }
 
 header h1 {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: bold;
 }
 
@@ -40,10 +40,8 @@ nav {
     border-bottom: #231F20 solid 1px;
 }
 
-div.main {
+section.intro {
     background-color: #F3DFA2;
-    font-size: medium;
-    text-align: left;
 }
 
 footer {
@@ -51,6 +49,7 @@ footer {
     font-size: x-small;
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 10px;
+    clear: left;
 }
 
 #copyright {
@@ -98,4 +97,39 @@ section {
     border-bottom: #231F20 solid 1px;
 }
 
-/* Cases */
+/* Cases & Articles */
+
+section.cases article span.case_intro img {
+    float: left;
+    margin: 20px 10px 10px 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+section.cases article {
+    display: flex;
+    clear: left;
+    padding: 20px 0px;
+}
+
+div.case_article {
+    padding: 70px 0px 0px 20px;
+}
+
+/* 
+section.cases {
+    padding-bottom: 40px;
+}
+
+section.cases article {
+    clear: left;
+}
+
+span.case_intro {
+    clear: left;
+    display: inline-block;
+}
+
+span.case_article {
+    clear: left;
+} */
