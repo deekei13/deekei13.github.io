@@ -3,7 +3,6 @@
 
 body {
     font-family: "Anonymous Pro", sans-serif;
-    font-size: medium;
     background-color: lightgray;
     color: #231F20;
 }
@@ -19,7 +18,7 @@ header h1 {
 
 /* Basic blocks rules */
 
-header.top, nav, footer, section.content, section.cases {
+header, nav, footer, section {
     max-width: 1080px;
     margin: auto;
     padding: 15px 30px;
@@ -100,7 +99,3 @@ section {
 }
 
 /* Cases */
-
-.cases h2 {
-    font-size: small;
-}
