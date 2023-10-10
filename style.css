@@ -86,8 +86,11 @@ nav a:hover {
 img.welcome_img {
     height: 250px;
     border-radius: 50%;
-    border: #F3DFA2 outset 1.5px;
-    box-shadow: 15px 25px 10px #231F20 ;
+    transition: all 200ms ease-out;
+}
+
+img.welcome_img:hover {
+    box-shadow: 0 0 5px 5px #F3DFA2 ;
 }
 
 /* The section section */
