@@ -40,10 +40,6 @@ nav {
     border-bottom: #231F20 solid 1px;
 }
 
-section.intro {
-    background-color: #F3DFA2;
-}
-
 footer {
     background-color: #F3DFA2;
     font-size: x-small;
@@ -60,7 +56,7 @@ footer {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 
@@ -100,19 +96,22 @@ img.welcome_img:hover {
 
 /* All section.content images rules */
 
+section.intro {
+    background-color: #F3DFA2;
+    border-bottom: #231F20 solid 1px;
+}
+
+section.content {
+    background-color: #EFE6DD;
+    border-bottom: #231F20 solid 1px;
+}
+
 section.content img {
     display: block;
     margin: 20px auto 0px auto;
     max-width: 100%;
     height: 500px;
     align-self: center;
-}
-
-/* The section section */
-
-section {
-    background-color: #EFE6DD;
-    border-bottom: #231F20 solid 1px;
 }
 
 /* Cases & Articles */
