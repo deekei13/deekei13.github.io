@@ -60,7 +60,7 @@ footer {
 
 nav ul {
     list-style-type: none;
-    margin: 10px;
+    margin: 0;
     padding: 0;
 }
 
@@ -82,7 +82,8 @@ nav a:hover {
 }
 
 nav a.selected {
-    color: #F3DFA2;
+    color: #EFE6DD;
+    text-shadow: #231F20 1px 1px;
 }
 
 /* Logo image rules */
