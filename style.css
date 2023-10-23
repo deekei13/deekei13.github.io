@@ -100,15 +100,14 @@ img.welcome_img:hover {
     box-shadow: 0 0 5px 5px #F3DFA2 ;
 }
 
-/* All section.content images rules */
+/* All section rules */
+
+section, div {
+    background-color: #EFE6DD;
+}
 
 section.intro {
     background-color: #F3DFA2;
-    border-bottom: #231F20 solid 1px;
-}
-
-section.content {
-    background-color: #EFE6DD;
     border-bottom: #231F20 solid 1px;
 }
 
