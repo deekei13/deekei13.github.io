@@ -119,16 +119,44 @@ section.content img {
     align-self: center;
 }
 
+/* CSS Table */
+
+div.tableContainer {
+    display: table;
+    border-spacing: 10px;
+    width: 100%;
+    padding: 0;
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableCell {
+    display: table-cell;
+}
+
+/* Bio */
+
+section.themes ul {
+    list-style-type: none;
+}
+
 /* Cases & Articles */
 
-section.cases article span.case_intro img {
+div.case_intro {
     float: left;
+    max-width: 100%;
+}
+
+article div.case_intro img {
     margin: 20px 10px 10px 0px;
     max-width: 100%;
     height: auto;
+    width: auto;
 }
 
-section.cases article {
+article {
     display: flex;
     clear: left;
     padding: 20px 0px;
@@ -155,3 +183,64 @@ span.case_intro {
 span.case_article {
     clear: left;
 } */
+
+
+
+
+/* CV */
+
+div.avatar_container {
+    position: relative;
+    text-align: center;
+}
+
+div.avatar_text {
+    color: #EFE6DD;
+    font-size: 15px;
+    text-shadow: #231F20 2px 2px 4px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+}
+
+div.skill_container {
+    background-color: rgb(192, 192, 192); 
+    width: 100%; 
+    border-radius: 15px;
+}
+
+.skill { 
+    background-color: #BB4430; 
+    color: white; 
+    padding: 0; 
+    text-align: right; 
+    font-size: 15px;
+    border-radius: 10px;
+    padding-right: 3px;
+} 
+
+.management { 
+    width: 80%; 
+} 
+
+.release {
+    width: 60%;
+}
+
+.front_dev { 
+    width: 15%; 
+}
+
+.webdev {
+    width: 50%;
+}
+
+.russian {
+    width: 100%;
+}
+
+.english {
+    width: 90%;
+}
