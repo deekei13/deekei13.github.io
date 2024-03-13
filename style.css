@@ -145,25 +145,30 @@ section.themes ul {
 /* Cases & Articles */
 
 div.case_intro {
-    float: left;
-    max-width: 100%;
+    max-width: 40%;
+    margin-right: 20px;
+    overflow: hidden;
 }
 
 article div.case_intro img {
-    margin: 20px 10px 10px 0px;
-    max-width: 100%;
-    height: auto;
-    width: auto;
+    width: 100%;
+    height: auto;    
 }
 
 article {
     display: flex;
-    clear: left;
+    flex-wrap: wrap;
     padding: 20px 0px;
 }
 
-div.case_article {
+article div.case_article {
     padding: 70px 0px 0px 20px;
+    clear: left;
+}
+
+div.case_article {
+    flex: 1;
+    padding: 0;
 }
 
 /* 
