@@ -7,7 +7,7 @@ body {
     color: #231F20;
 }
 
-p, li {
+p, li, ol {
     font-family: "Inter", sans-serif;
 }
 
@@ -30,13 +30,13 @@ header.top {
     text-align: center;
     border-radius: 20px 20px 0px 0px;
     margin-top: 30px;
+    border-bottom: #231F20 solid 1px;
 }
 
 nav {
     background-color: #BB4430;
     font-size: large;
     text-align: center;
-    border-top: #231F20 solid 1px;
     border-bottom: #231F20 solid 1px;
 }
 
@@ -100,7 +100,7 @@ img.welcome_img:hover {
     box-shadow: 0 0 5px 5px #F3DFA2 ;
 }
 
-/* All section rules */
+/* All section/div rules */
 
 section, div {
     background-color: #EFE6DD;
@@ -189,6 +189,18 @@ span.case_article {
 
 /* CV */
 
+div.left-side {
+    width: 30%;
+    text-align: left;
+}
+
+div.right-side {
+    width: 70%;
+    text-align: left;
+    padding-left: 20px;
+    vertical-align: 0%;
+}
+
 div.avatar_container {
     position: relative;
     text-align: center;
@@ -217,7 +229,7 @@ div.skill_container {
     padding: 0; 
     text-align: right; 
     font-size: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding-right: 3px;
 } 
 
