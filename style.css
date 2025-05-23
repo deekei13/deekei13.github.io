@@ -220,6 +220,9 @@ span.case_article {
 .experience {
     text-align: left;
 }
+.cta {
+    text-align: center;
+}
 
 div.skill_container {
     background-color: rgb(192, 192, 192); 
