@@ -11,6 +11,11 @@ p, li, ol {
     font-family: "Inter", sans-serif;
 }
 
+section.themes li {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: large;
+}
+
 header h1 {
     letter-spacing: 2px;
     font-weight: bold;
