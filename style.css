@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Inter:wght@400;700&display=swap');
 /* Main Base Stuff for all pages */
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Anonymous Pro", sans-serif;
     background-color: lightgray;
@@ -279,4 +283,79 @@ div.skill_container {
 
 .english {
     width: 85%;
+}
+
+/* Responsive overrides */
+
+@media (max-width: 768px) {
+    nav {
+        font-size: medium;
+        padding: 10px 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px 10px;
+        margin: 5px 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        padding: 6px 4px;
+    }
+
+    img.welcome_img {
+        height: 180px;
+    }
+
+    img.center_img {
+        height: auto;
+    }
+
+    img.project-logo {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        height: auto;
+        max-width: 150px;
+        width: 100%;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    div.case_intro {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    article div.case_article {
+        padding: 20px 0px 0px 0px;
+        clear: none;
+    }
+}
+
+@media (max-width: 420px) {
+    nav {
+        font-size: small;
+    }
+
+    nav ul {
+        gap: 2px 6px;
+    }
+
+    nav ul li a {
+        padding: 5px 3px;
+    }
+
+    img.welcome_img {
+        height: 130px;
+    }
 }
